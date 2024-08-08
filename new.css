@@ -4,7 +4,7 @@
 
 .vfrc-widget--chat {
   animation: fadeInChat 1s ease-out;
-  width: 100%;
+  width: 80%;
 }
 
 .vfrc-assistant-info--title {
