@@ -9,7 +9,7 @@
     z-index: 10000000 !important;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 368px) {
     .vfrc-widget {
         z-index: 10000000 !important;
         display: flex;
