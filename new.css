@@ -1,0 +1,202 @@
+.voiceflow-chat {
+  box-shadow: #000000;
+}
+
+.vfrc-widget--chat {
+  animation: fadeInChat 1s ease-out;
+}
+
+.vfrc-assistant-info--title {
+  font-size: 20px;
+}
+
+
+.c-bQoszf > img {
+  display: none;
+}
+
+.c-dzcdPv .vfrc-header--button {
+  border: none;
+  background: none;
+  padding: 0px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  height: 32px;
+  width: 32px;
+  transition: all 100ms ease 0s;
+}
+
+.c-dhzjXW {
+  width: 24px !important;
+  height: 24px !important;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: #f3f3f3;
+}
+
+.vfrc-chat-dialog {
+  flex: 1 1 0px;
+  overflow: hidden;
+  min-height: 0px;
+  background: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.85);
+  position: relative;
+  min-width: 320px;
+  direction: ltr;
+  opacity: 0;
+  transform: translateY(16px);
+  animation: 400ms ease-out 150ms 1 normal forwards running cxARAE;
+}
+
+.c-fYYkXN {
+  border-top-left-radius: 100px !important;
+  border-bottom-left-radius: 100px !important;
+  border: 1px solid #ccc;
+}
+
+.vfrc-launcher {
+  min-width: 95px;
+  height: 44px;
+  border-radius: 42px;
+  border: 1px solid rgb(73, 73, 248);
+  background-color: #6134f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  padding: 0 13px;
+  position: relative;
+}
+
+.vfrc-launcher::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background-image: url("https://svgshare.com/i/17ua.svg");
+  background-size: cover;
+  margin-right: 8px;
+}
+
+.vfrc-launcher::after {
+  content: "Ai Discovery";
+}
+
+.c-kIbiaN-iiTsXc-size-small.c-kIbiaN-icyFRzP-css {
+  width: 35px;
+  height: 35px;
+  background-image: url("https://www.nextsolutionai.com/wp-content/uploads/2024/05/ezgif.com-rotate-1.gif");
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.c-kIbiaN-eyfkxi-size-large {
+  background-image: url("https://www.nextsolutionai.com/wp-content/uploads/2024/05/ezgif.com-animated-gif-maker-1.gif");
+}
+
+.vfrc-button--secondary {
+  margin-left: 10px !important;
+}
+
+.vfrc-launcher:hover {
+  background-color: #6134f3;
+}
+
+.c-bXTvXv-lckiv-type-info {
+  background-color: #002b45;
+}
+
+.c-bXTvXv-lckiv-type-info:hover {
+  background-color: #014a77;
+}
+
+.c-bXTvXv-igaDqE-type-subtle {
+  margin: 0px;
+  border: 1px solid transparent;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 8px;
+  line-height: 20px;
+  padding: 7px 17px;
+  box-sizing: border-box;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  color: rgba(0, 0, 0, 0.85);
+  transition: all 333ms ease-in-out 0s;
+}
+
+
+
+.c-fYYkXN {
+  border-top-left-radius: 100px !important;
+  border-bottom-left-radius: 100px !important;
+  border: 1px solid #ccc;
+}
+
+.vfrc-chat-input--button {
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border: 1px solid #ccc;
+  margin-left: -1px;
+}
+
+.vfrc-message {
+  border-radius: 20px;
+  font-weight: normal;
+}
+
+.c-PJLV-jueArD-from-system {
+  background-color: #f3f3f3;
+  color: #000000d9;
+}
+
+.c-PJLV-gJqBfM-from-user {
+  background-color: #5525F1;
+  color: rgb(255, 255, 255);
+}
+
+.vfrc-proactive-message {
+  color: rgba(255, 255, 255, 0.81) !important;
+  backdrop-filter: blur(38px) saturate(179%) !important;
+  background-color: rgba(25, 25, 25, 0.04) !important;
+  border-radius: 12px !important;
+  border: 1px solid rgba(255, 255, 255, 0.24) !important;
+}
+
+.vfrc-button--secondary {
+  display: inline-block;
+  border: 1px solid rgba(0, 43, 69, 0.45);
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 9px 13px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: #ebe6ff;
+  color: #0c0033;
+  cursor: pointer;
+  transition: background-color 50ms ease-in-out 0s,
+    border-color 100ms ease-in-out 0s;
+  white-space: normal;
+  text-align: left;
+  font-size: 15px;
+}
+
+.vfrc-button--secondary:hover {
+  border-color: #4c00ff !important;
+}
+
+
+@media screen and (min-width: 768px) {
+  .vfrc-widget--chat {
+    border-radius: 20px;
+  }
+}
