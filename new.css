@@ -1,10 +1,10 @@
 .voiceflow-chat {
   box-shadow: #000000;
+  width: 80%;
 }
 
 .vfrc-widget--chat {
   animation: fadeInChat 1s ease-out;
-  width: 80%;
 }
 
 .vfrc-assistant-info--title {
